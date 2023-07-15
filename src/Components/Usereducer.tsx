@@ -18,6 +18,7 @@ const UseReducer = () => {
   return (
     <div>
       <h1>USe Reducer Practice</h1>
+       <h2>Reducer Practice</h2>
       <h5>Count: {state}</h5>
       <button onClick={() => dispatch({type: "Incri"})}>+</button>
       <button onClick={() => dispatch({type: "Decri"})} >-</button>
